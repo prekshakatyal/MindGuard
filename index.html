@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MindGuard Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🧠 MindGuard Dashboard</h1>
+      <p>Your AI wellness companion</p>
+    </header>
+
+    <section class="calendar-section">
+      <h2>📅 Today's Schedule</h2>
+      <div id="calendar">
+        <!-- Simulated dynamic content from JS -->
+      </div>
+    </section>
+
+    <section class="stress-section">
+      <h2>💬 How are you feeling today?</h2>
+      <textarea id="journal" rows="5" placeholder="Write a few sentences about your day..."></textarea>
+      <button onclick="analyzeStress()">Analyze</button>
+
+      <div id="result"></div>
+    </section>
+
+    <footer>
+      <p>© 2025 MindGuard. AI for well-being.</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
