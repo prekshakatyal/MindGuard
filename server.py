@@ -10,7 +10,7 @@ Original file is located at
 import pandas as pd
 
 # Load data
-df = pd.read_csv('/content/data.csv')
+df = pd.read_csv('/content/data.csv') #data for fine tuning
 
 # Select emotion columns (starts with Answer.f1)
 emotion_cols = [col for col in df.columns if 'Answer.f1' in col]
